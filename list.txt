@@ -1,0 +1,22 @@
+1)
+list1.reverse() - переписать элементы наоборот
+Пример
+list1 = [1,2,3,4]
+list1.reverse()
+# list1 = [4,3,2,1]
+
+2)
+sum(list1) - суммирует все элементы списка
+
+3)
+List comprehensions - быстрое задание списков
+Пример 1
+squares = [x ** 2 for x in range(10)]
+
+Пример 2 
+list0 = [1,5,3,7]
+list1 = [some_function(x) for x in list0] - к каждому элементу списка применится функция some_function
+
+Пример 3 
+list1 = [x ** 2 for x in range(10) if x % 2 != 0] - только нечетные обрабатываются
+list1 = [(x ** 2 if x % 2 != 0 else x ** 3) for x in range(10)] - нечетные в квадрат, четные в куб
